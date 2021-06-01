@@ -35,7 +35,7 @@ public class Shot {
 
     public void show(){
         System.out.print("Shot in an area with coordinates: "+ x + " " + y + "\n" +"Radius: " + r + "\n" + "Hit: ");
-        String s = hit?"Good job)":"Bad job(";
+        String s = hit?"TRUE":"FALSE";
         System.out.print(s + "\n" + "-----------------------" + "\n");
     }
 }
